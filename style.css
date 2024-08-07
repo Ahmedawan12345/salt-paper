@@ -1,0 +1,443 @@
+/* header css start */
+.head{
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding-top: 20px;
+}
+.head a{
+    color: white;
+    font-size: 20px;
+}
+.head a:hover{
+    color: white;
+}
+.head-btn1{
+    background-color:black;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.head-btn2{
+    background-color:#ED1C24;
+    padding: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* brand css start  */
+
+.brand h1{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.brand h1 span {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.brand h3{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+
+.brand p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+
+.brand-main {
+    background-color: white;
+    border-radius: 10px;
+    height: 140px;
+    padding-top: 20px;
+}
+.brand-btn:hover{
+   color: white;
+}
+/* franchises css start  */
+.franchises{
+   text-align: center;
+   background-image: url(images/franchises\ main.webp);
+   background-repeat: no-repeat;
+   background-position: right;
+   position: relative;
+   color: white;
+   background-color: rgba(14, 13, 13, 0.85);
+   padding: 50px;
+}
+.franchise-headigs h1{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.franchise-headigs h2{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.franchise-headigs p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+.franchise-first{
+    text-align: left;
+}
+.franchise-first h3{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 18px;
+    display: block;
+    padding-top: 30px;
+}
+
+.franchise-first h1{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.franchise-first h1 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.franchise-first p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.franchise-first .btn{
+    margin-top: 30px;
+    background-color: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+/* franchises css end  */
+
+
+ /* Express Franchises secton css start  */
+
+ .Express-Franchises{
+    background-color: rgba(2, 2, 2, 0.971);
+    padding: 60px;
+    text-align: center;
+    background-image: url(images/franchises\ main.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    color: white;
+ }
+
+ .Express-Franchises .main-heading h1{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 29px;
+    color: #FFFFFF;
+ 
+ }
+
+ .Express-Franchises .main-heading h3{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 79px;
+    color: #FFFFFF;
+ }
+
+.card{
+    background-color: rgba(2, 2, 2, 0.971);
+    
+}
+
+ .card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    color:#ED1C24;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+}
+.card-heading{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card-heading span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.card-text {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    overflow: hidden;
+    height: 36px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+  /* Express Franchises secton css end*/
+
+
+
+  /* village francies css start   */
+.Village-Franchise {
+    background-color: rgba(2, 2, 2, 0.778);
+}
+.Village-Franchise h1{
+    padding-top: 40px;
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.Village-Franchise h3{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 79px;
+    color: #FFFFFF;
+}
+
+.Village-Franchise .village-headings h1{
+    margin-bottom: 1rem;
+    color:#ED1C24;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 100px;
+} 
+
+.Village-Franchise .village-headings h2{
+    padding-top: 10px;
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 70px;
+} 
+
+
+.Village-Franchise .village-headings p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 36px;
+    text-align: left;
+    padding-left: 70px
+} 
+
+/* Express-Franchises css start  */
+
+.Opening-Soon{
+    background-color: black;
+    text-align: center;
+}
+
+.Opening-Soon h1{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    
+}
+
+.Opening-Soon h3{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.location{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.location h2{
+    margin-bottom: 1rem;
+    color:#ED1C24;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.location h1{
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'futurak';
+    padding-top: 20px;
+}
+
+.location h1 span{
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'futurak';
+    text-align: center;
+}
+
+.footer
+{
+    background-color: black;
+     color: rgb(255, 255, 255) !important;
+      margin-top: 30px;
+     padding-top: 10px;
+}
+.text-uppercase{
+    font-size: 20px;
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+.icons i{
+   padding: 10px;
+   background-color: #ED1C24;
+   border-radius: 100%;
+}
